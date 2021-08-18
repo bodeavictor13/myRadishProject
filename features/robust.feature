@@ -20,7 +20,7 @@ Feature: Some terse yet descriptive text of what is desired like bla bla
     And something else we can check happens too
 
   @Quick @nightly
-  Example: Some another scenario 2
+  Scenario: Some another scenario 2
   scenario 2 description
     Given some precondition
     And some other precondition with doc string
