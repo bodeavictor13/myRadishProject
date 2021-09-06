@@ -84,18 +84,6 @@
     </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>JBoss repository</id>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://github.com/matthew101390/junit2Octane/packages</url>
-        </repository>
-    </repositories>
-
     <name>counter-maven-plugin Maven Mojo</name>
     <url>http://maven.apache.org</url>
 
