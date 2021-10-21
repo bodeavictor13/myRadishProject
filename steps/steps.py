@@ -57,8 +57,8 @@ def some_other_action(step):
 
 @then('some testable outcome is achieved')
 def some_testable_outcome_is_achieved(step):
-    print('STEP: Then some testable outcome is achieved')
-    # assert(1==0)
+    # print('STEP: Then some testable outcome is achieved')
+    assert(1==0)
 
 
 # @then('something else we can check happens too')
@@ -122,7 +122,7 @@ def we_calculate_the_feeding_requirements(step):
 @then('the energy should be {energy:g} MJ')
 def the_energy_should_be_energy_mj(step, energy):
     # print('STEP: Then the energy should be MJ: ')
-    assert(0==0)
+    assert(1==0)
 
 
 # @given(u'a blog named "Greg\'s anti-tax rants"')
