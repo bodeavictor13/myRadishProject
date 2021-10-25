@@ -5,7 +5,7 @@ from radish import given, when, then
 @step('a global administrator named "Greg"')
 def a_global_administrator_named_greg(step):
     print('STEP: Given a global administrator named "Greg"')
-    step.skip()
+    raise NotImplementedError(u'STEP: a global administrator named "Greg"')
 
 
 @step('a blog named "Greg\'s anti-tax rants"')
@@ -30,7 +30,7 @@ def something_else_we_can_check_happens_too(step):
 @step("scenario outline")
 def scenario_outline(step):
     print("scenario outline")
-    step.skip()
+    raise NotImplementedError(u'STEP: scenario outline')
 
 @step("description")
 def description(step):
@@ -40,7 +40,7 @@ def description(step):
 @given('the following people exist')
 def the_following_people_exist(step):
     step.context.users = step.table
-    step.skip()
+    raise NotImplementedError(u'STEP: the following people exist')
 
 
 @given('some precondition 1')
