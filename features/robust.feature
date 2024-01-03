@@ -23,7 +23,7 @@ Feature: Some terse yet descriptive text of what is desired like bla bla
   Scenario: Some another scenario 2
   scenario 2 description
     Given some precondition
-    And some other precondition with doc string
+    And some other new precondition with doc string
     When some action by the actor
     And yet another action
     Then some testable outcome is achieved
